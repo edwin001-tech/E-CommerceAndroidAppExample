@@ -38,6 +38,7 @@ public class SignIn extends Fragment {
     boolean isPasswordShown = false;
     FinishActivity finishActivityCallback;
 
+    //called when a fragment is connected to an activity
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
